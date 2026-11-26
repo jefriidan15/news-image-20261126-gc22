@@ -281,8 +281,8 @@ def draw_page(cv):
 
     # Ticker strip.
     cv.rect(0, 548, W, 48, INK)
-    draw_text(cv, 32, 566, "BRENT $94.20 UP | US TARIFFS HIT 14 PARTNERS | "
-              "UKRAINE STRIKES AIR BASE", 2, GOLD_LT)
+    draw_text(cv, 32, 566, "BRENT $94.20 UP | US TARIFFS HIT 14 | "
+              "UKRAINE AIR BASE HIT | KIM ORDERS NUKES", 2, GOLD_LT)
 
     # Story grid: 2 columns x 3 rows.
     for i, (tag, color, head, summ) in enumerate(STORIES):
